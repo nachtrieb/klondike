@@ -1,0 +1,19 @@
+# build products and large regenerated files
+cpp/klondike
+cpp/*.o
+results/trace.csv
+results/strategy_0_check.csv
+
+# private / local working files (kept in the project zip, not on GitHub)
+RULES.md
+project_state.md
+arc/
+make_package.sh
+dist/
+
+# editor / OS / R scratch
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
